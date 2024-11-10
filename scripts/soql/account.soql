@@ -1,0 +1,7 @@
+Interesting, now write a SOQL statement that returns all fields for the contact with passport__c=‘P-22233344’
+
+
+SELECT *
+FROM Contact
+WHERE passport__c = 'P-22233344'
+LIMIT 1
